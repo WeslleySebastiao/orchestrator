@@ -137,7 +137,7 @@ curl -X POST http://localhost:8000/chat \
 |---|---|---|
 | `OPENAI_API_KEY` | Chave da API OpenAI | — (obrigatório) |
 | `OPENAI_MODEL` | Modelo a usar | `gpt-4o-mini` |
-| `VOICE_TONE` | System prompt do Synthesis (tom de voz) | Lia, assistente da Klabin |
+| `VOICE_TONE` | System prompt do Synthesis (tom de voz) | Lia, assistente virtual|
 | `AGENTS_API_BASE_URL` | URL da API de agentes | `http://localhost:8001` |
 | `AGENTS_API_KEY` | Bearer token para API de agentes | — (opcional) |
 | `HOST` | Host do server | `0.0.0.0` |
@@ -511,7 +511,7 @@ VOICE_TONE=Você é um assistente técnico. Seja preciso, use terminologia corre
 VOICE_TONE=Você é o Léo, assistente da galera. Fala informal, usa gírias, pode usar emoji 😎
 
 # Bilíngue
-VOICE_TONE=You are Lia, Klabin's virtual assistant. Respond in the same language the user writes in.
+VOICE_TONE=You are Lia, a personal virtual assistant. Respond in the same language the user writes in.
 ```
 
 ### Mudar o modelo
